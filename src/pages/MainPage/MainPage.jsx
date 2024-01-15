@@ -13,6 +13,7 @@ function MainPage() {
   }
   return (
     <>
+    <head><title>Adrian's About Me</title></head>
      <header><NavBar/>
      <button className="AMAButton" type="button" onClick={AMAClickHandler}>Ask me anything!</button>
      </header>

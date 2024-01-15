@@ -1,17 +1,17 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.scss'
-import { SessionProvider } from './context/SessionContext';
 import MainPage from './pages/MainPage';
+import TuringMachinePage from './pages/TuringMachinePage';
 
 function App() {
   return (
-    <div className="app">
-      <Router>
-        <SessionProvider>
-          <MainPage />
-        </SessionProvider>
-      </Router>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<MainPage />} />
+        <Route path="/TuringMachine" element={<TuringMachinePage />} />
+      </Routes>
+    </Router>
   );
 }
 
