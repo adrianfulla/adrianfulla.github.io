@@ -1,0 +1,55 @@
+.contact {
+    text-align: center;
+    margin: auto;
+    background-color: #49295b;
+    height: 200px;
+    width: 100%;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.text {
+    margin: auto;
+    h1 {
+        padding: 50px 5% 30px 5%;
+        color: white;
+        font-size: 180%;
+        letter-spacing: 1px;
+    }
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 70px 0px;
+    margin: auto;
+
+    button {
+        background-color: #49295b;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 2px solid white;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+
+        svg {
+            width: 50px;
+        }
+
+        &:hover {
+            background-color: white;
+            color: #49295b;
+
+            svg {
+                fill: #49295b;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,143 @@
+.about {
+    text-align: center;
+    height: fit-content;
+	top: 0;
+    left: 0;
+    right: 0;
+	padding: 0%;
+	margin: 0%;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+}
+.home {
+    text-align: center;
+    height: fit-content;
+}
+
+.title {
+    h1 {
+        padding: 125px 15% 0px 15%;
+        font-size: 200%;
+        letter-spacing: 1px;
+    }
+    h2 {
+        padding: 0px 25% 0px 25%;;
+        font-size: 125%;
+        letter-spacing: 1px;
+    }
+
+    h1,h2 {
+        &:hover{
+            text-shadow: rgb(117, 7, 147) 1px 0 10px;
+        }
+    }
+}
+
+.animation {
+    margin-top: 50px;
+
+    .bulbs {
+        height: 70px;
+
+        .lightbulb{
+            width: 50px;
+            animation: slide 2s infinite;
+          }
+          
+        @keyframes slide {
+        0% {
+            transform: rotate(-30deg);
+            transform: translateY(50%);
+        }
+        50% {
+            transform: rotate(-30deg);
+            opacity: 1;
+        }
+        100% {
+            transform: rotate(-30deg);
+            transform: translateY(-50%);
+            opacity: 0;
+        }
+        }
+    }
+
+    .brain {
+        width: 250px;
+        animation: rotation 8s infinite;
+    }
+      
+    @keyframes rotation {
+        0% { transform: rotate(-360deg); }
+        50% { transform: rotate(10deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+}
+
+.box {
+	border-radius: 25px;
+	position: relative;
+    overflow: hidden;
+	width: 90%;
+    min-height: 400px;
+	margin: auto;
+	background-color: #49295b;
+	z-index: -100;
+
+    .boxCircle {
+        width: 50%;
+        margin-left: 50%;
+        position: absolute;
+        height: 100%;
+        border-radius: 1000% 10% 10% 20%;
+        background-color: #380c43;
+        z-index: -2;
+        
+    }
+
+    .boxOverlay {
+        position: relative;
+        z-index: 110;
+    }
+}
+
+.text {
+	position: relative;
+	z-index: 120;
+    h1 {
+        padding: 80px 15% 0px 15%;
+        color: rgb(191, 217, 213);
+        
+        font-size: 180%;
+        letter-spacing: 1px;
+    }
+
+    p {
+        padding: 0px 25% 50px 25%;
+        color: white;
+        
+        font-size: 110%;
+        letter-spacing: 1px;
+    }
+}
+
+.features {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 0px 0px 70px 0px;
+    z-index: 1000;
+    margin-top: -10%;
+    width: 85%;
+}
+
+@media (max-width: 746px) {
+  
+    .features {
+        display: inline-block;
+
+        .separator {
+            height: 1px;
+        }
+    }
+    
+}

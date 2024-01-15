@@ -1,0 +1,49 @@
+ .feature {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        min-width: 33.33%;
+        min-height: 100%;
+        background-color: rgb(215, 185, 185);
+        box-shadow: 0 2px 4px rgb(0, 0, 0);
+        z-index: 100000;
+        justify-content: center;
+        text-align: center;
+        font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+
+        
+        .circle {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            height: 70px;
+            width: 70px;
+            background-color: #9D44B5;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                vertical-align: middle;
+                height: 50px;                
+            }
+        }
+
+        h1 {
+            padding: 0px 5% 0px 5%;
+            font-size: 110%;
+            letter-spacing: 1px;
+        }
+
+        p {
+            padding: 0px 15% 30px 15%;
+            font-size: 90%;
+            letter-spacing: 1px;
+        }
+        &:hover {
+            background-color: palevioletred;
+            box-shadow: 0 4px 8px rgb(0, 0, 0);
+        }
+    }

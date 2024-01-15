@@ -1,0 +1,23 @@
+.langCard{
+    width:175px;
+    height:175px;
+    display: flex;
+    background-color: rgb(116, 150, 150);
+    border-radius: 25px;
+    align-items: center;
+    border: 10px solid;
+    border-color: #49295b ;
+    cursor: pointer;
+    margin: 5px;
+    z-index: 100000;
+        
+    img {
+        width: 80%;
+        
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+        
+}
