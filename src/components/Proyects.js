@@ -12,10 +12,10 @@ export default Object.freeze ([
       description: "A redesign of the video game store Steam for a mom audience",
     },
     {
-      title: "Fernando Guzman Tailoring",
-      image: "https://scontent.fgua5-1.fna.fbcdn.net/v/t39.30808-6/310994264_517089130422395_867553018691306148_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=1b51e3&_nc_ohc=CjnCoUifErgAX-t4xQ9&_nc_ht=scontent.fgua5-1.fna&oh=00_AfCTiYXvvGtsw_kbDXdOOKQiyTBZ5bEriEPuENa4yFzPrA&oe=6503891E",
-      link: "https://github.com/Fernando-Guzman-Bespoke",
-      description: "An ongoing software development project for which I am doing QA",
+      title: "Caesar Cipher Turing Machine",
+      image: "https://cdn-icons-png.flaticon.com/512/1792/1792193.png",
+      link: "/TuringMachine/",
+      description: "A fun project that shows the functionality of a Turing Machine in cipher and decipher of messages.",
     },
     {
       title: "Internet of Things",
